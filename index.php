@@ -1,6 +1,6 @@
 <php? 
 
-echo 'Hello Suez !';
+echo 'Suez is wonderful !';
 
 
 ?>
