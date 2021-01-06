@@ -1,6 +1,5 @@
 <php? 
 
-echo 'Suez is wonderful !';
-
+echo 'Eau tranquille est souvent profonde.';
 
 ?>
