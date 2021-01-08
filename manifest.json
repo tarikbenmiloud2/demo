@@ -1,0 +1,29 @@
+{
+  "name": "GitHub Projects Story Points",
+  "short_name": "GitHub Projects Story Points",
+  "description": "Add story points to GitHub project lists by reading labels. Forked from https://github.com/brthrs/github-project-story-points",
+  "version": "1.1.0",
+  "author": "Nicola Peduzzi, Connor McArthur",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://*/*/projects/*"
+      ],
+      "include_globs": [
+        "*/projects/*"
+      ],
+      "js": [
+        "github-storypoints.js"
+      ],
+      "run_at": "document_idle"
+    }
+  ],
+  "manifest_version": 2,
+  "icons": {
+    "16": "github-storypoints-icon-16.png",
+    "32": "github-storypoints-icon-32.png",
+    "24": "github-storypoints-icon-24.png",
+    "48": "github-storypoints-icon-48.png",
+    "128": "github-storypoints-icon-128.png"
+  }
+}
